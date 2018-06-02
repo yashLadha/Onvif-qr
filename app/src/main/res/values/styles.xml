@@ -1,0 +1,25 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="FullScreenTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <style name="LoginBtn" parent="Theme.AppCompat.Light">
+        <item name="colorControlHighlight">#42a5f5</item>
+        <item name="colorButtonNormal">#1de9b6</item>
+    </style>
+
+    <style name="RecordBtn" parent="Theme.AppCompat.Light">
+        <item name="colorControlHighlight">#aa00ff</item>
+        <item name="colorButtonNormal">#7c4dff</item>
+    </style>
+
+</resources>
